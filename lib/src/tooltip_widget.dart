@@ -479,7 +479,7 @@ class _ToolTipWidgetState extends State<ToolTipWidget>
     return Stack(
       children: <Widget>[
         Positioned(
-          left: _getSpace(),
+          left: 0,
           top: contentY - 10,
           child: FractionalTranslation(
             translation: Offset(0.0, contentFractionalOffset as double),
